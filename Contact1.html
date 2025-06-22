@@ -1,0 +1,51 @@
+<html>
+<head></head>
+<body>
+<style>
+  #contact {
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/myzjdkba" method="POST">
+    
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" placeholder="Write your message" required></textarea><br><br>
+
+    <!-- Redirect to thank you page after submission (optional) -->
+    <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>

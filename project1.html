@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta name="viewport"content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<style>
+.project-section{
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  }
+  
+  .projects-section h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+  }
+  
+  .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 500px;
+  }
+  
+  .project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+  transform: translateY(-5px);
+  }
+  
+  .project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  }
+  
+  .project-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #007bff;
+  }
+  
+  .project-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #555;
+  }
+  
+  .project-card a {
+  display: inline-block;
+  color: white;
+  background: #007bff;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  }
+  
+  .project-card a:hover {
+  background: #0056b3;
+  }
+</style>
+
+
+
+
+
+<section class="projects-section">
+  <h2> My Projects</h2>
+  <div class="projects-grid">
+  <div class="project-card">
+  <img src="https://via.placeholder.com/300x180" alt="Project 1">
+  <h3>Project One</h3>
+  <p>This is a simple HTML & CSS website design project.</p>
+  <a href="#">View Project</a>
+  </div>
+  <div class="project-card">
+  <img src="https://via.placeholder.com/300x180" alt="Project 2">
+  <h3>Project Two</h3>
+  <p>A JavaScript To-Do List App with interactive UI.</p>
+  <a href="#">View Project</a>
+  </div>
+  <div class="project-card">
+  <img src="https://via.placeholder.com/300x180" alt="Project 3">
+  <h3>Project Three</h3>
+  <p>Responsive Portfolio website using Flexbox & Media Queries.</p>
+  <a href="#">View Project</a>
+  </div>
+  <div class="project-card">
+  <img src="https://via.placeholder.com/300x180" alt="Project 4">
+  <h3>Project Four</h3>
+  <p>Basic Calculator App using HTML, CSS, and JavaScript.</p>
+  <a href="#">View Project</a>
+  </div>
+  </div>
+  </section>
+  </body>
+  </html>
